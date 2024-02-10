@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushka Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            background-color: rgb(2, 2, 36);
+            color: white;
+            font-family:'Poppins',sans-serif;
+        }   
+
+        nav{
+            display:flex;
+            justify-content: space-around ;
+            align-items: center;
+            height: 85px;
+            background-color:rgb(19, 19, 126);
+        }
+
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(89, 151, 223);
+            font-size: 1.1rem;
+        }
+
+        .left{
+            font-size: 1.5rem;
+        }
+
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 160px 0;
+        }
+
+        .firstsection >div{
+            width: 30%;
+        }
+
+        .leftsection{
+            font-size: 3rem;
+            margin: 30px;
+        }
+
+        .rightsection >div {
+            width: 400px;
+        }
+
+        .pink{
+            color: rgb(135, 195, 230);
+        }
+
+        .grey{
+            color:rgb(179, 127, 228)
+        }
+
+        #element{
+            color: rgb(135, 195, 230);
+        }
+
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr{
+            border:0;
+            background-color:rgb(135, 195, 230);
+            height:1.2px;
+            margin:40px 84px;
+        }
+
+        .secondsection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 60px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .secondsection .vertical{
+            height:93px;
+            width:1px;
+            background-color: white;
+        }
+
+        .about-section{
+            background-color: rgb(10, 10, 40);
+            padding: 40px;
+        }
+
+        .about-section h1{
+            font-size: 2rem;
+            color: rgb(135, 195, 230);
+        }
+
+        .about-section p{
+            font-size: 1.1rem;
+        }
+
+        .experiences-section{
+            background-color: rgb(20, 20, 60);
+            padding: 40px;
+        }
+
+        .experiences-section h1{
+            font-size: 2rem;
+            color: rgb(135, 195, 230);
+        }
+
+        .experiences-section ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        .experiences-section li{
+            margin: 20px 0;
+        }
+
+        .experiences-section h2{
+            font-size: 1.5rem;
+            color: rgb(179, 127, 228);
+        }
+
+        .hobbies-section{
+            background-color: rgb(10, 10, 40);
+            padding: 40px;
+        }
+
+        .hobbies-section h1{
+            font-size: 2rem;
+            color: rgb(135, 195, 230);
+        }
+
+        .hobbies-section p{
+            font-size: 1.1rem;
+        }
+
+        .hobbies-section ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        .hobbies-section li{
+            margin: 10px 0;
+        }
+
+        .contact-section{
+            background-color: rgb(20, 20, 60);
+            padding: 40px;
+        }
+
+        .contact-section h1{
+            font-size: 2rem;
+            color: rgb(135, 195, 230);
+        }
+
+        .contact-section p{
+            font-size: 1.1rem;
+        }
+
+        .contact-section ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-section li{
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+        <div class="left">Anushka's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="firstsection">
+            <div class="leftsection">
+                Hi! I am <span class="pink">Anushka</span>,
+                <div>an enthusiast</div>
+                
+                <span id="element"></span>
+
+                
+
+
+
+            </div>
+
+            <div class="rightsection">
+                <img src="sa.jpg" alt="" style="max-width: 400px; max-height: 400px;">
+            </div>
+        </section>
+        <hr>
+
+        <section id="about" class="about-section">
+            <h1>About Me</h1>
+            <p>Hello, I'm Anushka, and I'm passionate about creativity and design. I love to explore new technologies and express my ideas through various forms of art.</p>
+        </section>
+
+        <section id="experiences" class="experiences-section">
+            <h1>Experiences</h1>
+            <ul>
+                <li>
+                    <h2>Jr Graphics Officer at Quest IT</h2>
+                    <p>I am a Jr Graphics Officer at Quest IT, where I have worked on different posts .</p>
+                </li>
+                <li>
+                    <h2>Jr member at Veslang circle </h2>
+                    <p>I am a Jr member at Veslang Circle,where we take sessions to improve professional communication of students   .</p>
+                </li>
+              
+            </ul>
+        </section>
+
+        <section id="hobbies" class="hobbies-section">
+            <h1>Hobbies</h1>
+            <p>When I'm not designing, I enjoy pursuing my hobbies:</p>
+            <ul>
+                <li>Painting and drawing</li>
+                <li>Coding and programming</li>
+                <li>Exploring new technologies</li>
+                <li>Traveling and photography</li>
+               
+            </ul>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h1>Contact Me</h1>
+            <p>If you'd like to get in touch or collaborate on a project, feel free to reach out to me:</p>
+            <ul>
+                <li>Email: <a href="anushka3204@gmail.com">anushka3204@gmail.com</a></li>
+                <li>Instagram: <a>anushkashahane_03</a></li>
+              
+            </ul>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['CODER', 'GRAPHICS DESIGNER', 'WEB DESIGNER', 'ARTIST'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
